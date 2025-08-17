@@ -1,0 +1,129 @@
+.btn-primary{
+    background-color:#000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    
+}
+
+.btn-primary:hover{
+    background-color: #343434;
+    color: #ffffff;
+    transition:ease-in-out 0.3s; 
+    translate:none;
+}
+.btn-secondary{
+    background-color:#E87A30;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+
+.btn-secondary:hover{
+    background-color: #ffffff;
+    color: #E87A30;
+    transition:ease-in-out 0.3s; 
+    translate:none;
+}
+
+/* .btn-tertiary{
+
+} */
+
+.btn-link{
+    padding: 5px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+.btn-link:hover{
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    transition:ease-in-out 0.3s; 
+    translate:none;
+    background-color: transparent;
+}
+
+/* .btn-success{
+
+}
+
+.btn-failure{
+
+}
+
+.btn-disabled{
+
+} */
+/* Typography */
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin:0px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -1px;
+    margin:0px;
+
+}
+
+h3{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0px;
+    margin:0px;
+
+}
+
+h4{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin:0px;
+}
+
+p{
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin:0px;
+    color:#000000;
+}
+/* Favicon */
+.btn-fav-grey{
+    background-color: #EDEDED;
+    padding: 10px 10px;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+    max-width: fit-content;
+    max-height: fit-content;
+    border: none;
+    display:flex;
+    flex-direction: row;
+    gap:4px;
+}
+.btn-fav-grey img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.btn-fav-grey:hover{
+    background-color: #DCDCDC;
+    box-shadow: 2px;
+    transition:ease-in-out 0.3s;
+    border:none
+}
