@@ -1,0 +1,1 @@
+# vanilla-frontend-componentized
